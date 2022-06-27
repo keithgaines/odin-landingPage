@@ -1,13 +1,28 @@
 header {
+    display: flex;
     background-color: #1f2937;
-    padding: 30px;
     font-size: 24px;
     color: #F9FAF8;
-    
 }
 
-header .navbar {
+.headerLogo img {
+    width: auto;
+    height: 100px;
+    align-content: flex-start;
+}
 
+.navbar {
+    display: flex;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbarLinks {
+    display: inline;
+    margin-left: auto;
+    padding: 5px;
+    color: white;
 }
 
 footer {
