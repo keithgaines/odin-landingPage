@@ -80,6 +80,15 @@ button {
 
 }
 
+.testimonial {
+    justify-content: center;
+}
+
+.testimonial p {
+    margin: 15%;
+    justify-content: center;
+}
+
 
 footer {
     background-color: #1f2937;
