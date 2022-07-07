@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.headerLogo p {
+.headerLogo img {
     width: auto;
     height: 50px;
 }
@@ -15,8 +15,16 @@
     display: flex;
     margin-left: auto;
     padding: 0px 100px 0px 0px;
-    font-size: x-large;
+    font-size: xx-large;
     gap: 10px;
+}
+
+.navbarLinks a {
+    color: whitesmoke;
+}
+
+.navbarLinks a:visited {
+    color: whitesmoke;
 }
 
 .section1 {
@@ -26,6 +34,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 30px;
 }
 
 .section1LeftSide {
@@ -67,7 +76,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .section2Content img {
