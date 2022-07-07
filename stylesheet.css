@@ -89,6 +89,22 @@ button {
     justify-content: center;
 }
 
+.signup {
+    justify-content: center;
+    padding: 50px;
+}
+
+.signup p {
+    padding: 25px;
+    background-color: blue;
+    color: white;
+}
+
+.signup button {
+    padding: 5px;
+    width: 25%;
+    margin-left: 25%;
+}
 
 footer {
     background-color: #1f2937;
