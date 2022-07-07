@@ -1,3 +1,7 @@
+body {
+    margin: 0%;
+}
+
 .navbar {
     display: flex;
     color: #F9FAF8;
@@ -28,6 +32,7 @@
 }
 
 .section1 {
+    margin-right: 0%;
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -77,6 +82,7 @@ button {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 .section2Content img {
@@ -86,8 +92,7 @@ button {
     border: 4px solid blue;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
-    align-content: center;
-    
+    align-content: center; 
 }
 
 .section2Content p {
