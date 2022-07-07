@@ -56,11 +56,8 @@ button {
 
 .section2 {
     display: flex;
-    width: fit-content;
     flex-direction: row;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
 }
 
 .section2Content img {
@@ -85,7 +82,9 @@ button {
 }
 
 .testimonial p {
-    margin: 15%;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
     justify-content: center;
 }
 
