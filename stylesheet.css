@@ -13,23 +13,21 @@ body {
     flex-wrap: wrap;
     color: #F9FAF8;
     background-color: #1F2937;
-    align-items: center;
-}
-
-.headerLogo img {
-    width: 100px;
-    height: auto;
+    width: 100%;
+    gap: 50%;
 }
 
 .navbarLinks {
     display: flex;
+    flex-wrap: wrap;
     font-size: xx-large;
     gap: 10px;
-    margin: 0%;
+    padding: auto;
 }
 
 .navbarLinks a {
     color: whitesmoke;
+    padding: auto;
 }
 
 .navbarLinks a:visited {
@@ -45,10 +43,13 @@ body {
     justify-content: center;
     padding-bottom: 30px;
     margin: 0%;
+    flex-direction: column;
+    object-fit: cover;
 }
 
 .heroTextText {
-    display: flex;
+    display: inline-flex;
+    flex-direction: row;
     flex-wrap: wrap;
     text-align: left;
     width: 50%;
@@ -68,21 +69,14 @@ body {
     color: #E5E7EB;
 }
 .heroText img {
-    height: auto;
-    max-width: 50%;
+    display: inline;
+    height: 500px;
+    max-width: auto;
 }
 
 button {
     padding: 10px 15px;
     width: 40%;
-}
-
-.section1RightSide {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    flex-wrap: wrap;
-    object-fit: cover;
 }
 
 .section2 {
