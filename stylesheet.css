@@ -50,6 +50,8 @@ body {
     flex-wrap: wrap;
     text-align: left;
     width: 50%;
+    max-width: fit-content;
+
 }
 
 .heroTextText h1 {
