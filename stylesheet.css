@@ -41,13 +41,12 @@ body {
     justify-content: center;
     padding-bottom: 30px;
     margin: 0%;
-    object-fit: cover;
+    
 }
 
 .heroTextText {
     display: flex;
     flex: 1;
-    flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
     width: 50%;
@@ -66,11 +65,14 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.heroTextRight{
+    width: 50%;
+}
 .heroText img {
     display: flex;
-    flex: 2;
-    height: 500px;
-    max-width: auto;
+    height: auto;
+    width: 100%;
 }
 
 button {
