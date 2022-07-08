@@ -4,11 +4,8 @@ header {
 }
 
 body {
-<<<<<<< HEAD
-    width: 100%
-=======
     margin: 0%;
->>>>>>> 94611045a33d45eb0803cbdd03277bed41993f65
+    padding: 0%;
 }
 
 .navbar {
@@ -16,7 +13,6 @@ body {
     flex-wrap: wrap;
     color: #F9FAF8;
     background-color: #1F2937;
-    /* padding: 5px 0px 5px 25px; */
     align-items: center;
 }
 
@@ -28,7 +24,7 @@ body {
 .navbarLinks {
     display: flex;
     margin-left: auto;
-    padding: 0px 100px 0px 0px;
+    padding: 0px 0px 0px 80%; 
     font-size: xx-large;
     gap: 10px;
     margin: 0%;
