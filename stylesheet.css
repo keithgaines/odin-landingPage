@@ -6,6 +6,9 @@ body {
     margin: 0%;
 }
 
+h1 {
+    text-align: center;
+}
 .navbar {
     display: flex;
     flex-wrap: wrap;
@@ -38,31 +41,30 @@ body {
     flex-wrap: wrap;
     background-color: #1F2937;
     color: #F9FAF8;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 30px;
     margin: 0%;
-    width: fit-content;
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
     .heroText {
-        flex-direction: column;
+        flex-direction: row;
+        flex-direction: wrap;
+        width: 100%;
     }
 }
 
 .heroTextText {
     display: flex;
-    flex: 1;
     flex-wrap: wrap;
     text-align: left;
-<<<<<<< HEAD
-    max-width: fit-content;
-=======
-    width: 50%;
-    max-width: fit-content;
+    max-width: 50%;
+}
 
->>>>>>> 9cf2a1c721a6bbcfc45912f83fc52f7e41876bdb
+@media screen and (max-width: 600px) {
+    .heroTextText {
+        width: 50%;
+    }
 }
 
 .heroTextText h1 {
@@ -81,6 +83,7 @@ body {
 
 .heroTextRight{
     width: 50%;
+    max-width: 50% ;
 }
 .heroText img {
     display: flex;
