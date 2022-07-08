@@ -34,6 +34,7 @@ body {
 
 .heroText {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -42,6 +43,12 @@ body {
     padding-bottom: 30px;
     margin: 0%;
     width: fit-content;
+}
+
+@media screen and (max-width: 600px) {
+    .heroText {
+        flex-direction: column;
+    }
 }
 
 .heroTextText {
@@ -73,7 +80,6 @@ body {
     display: flex;
     height: auto;
     max-width: 100%;
-    object-fit: cover;
 }
 
 button {
