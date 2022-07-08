@@ -41,7 +41,7 @@ body {
     justify-content: center;
     padding-bottom: 30px;
     margin: 0%;
-    
+    width: fit-content;
 }
 
 .heroTextText {
@@ -49,7 +49,7 @@ body {
     flex: 1;
     flex-wrap: wrap;
     text-align: left;
-    width: 50%;
+    max-width: fit-content;
 }
 
 .heroTextText h1 {
@@ -72,7 +72,8 @@ body {
 .heroText img {
     display: flex;
     height: auto;
-    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 button {
