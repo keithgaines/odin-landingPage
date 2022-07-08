@@ -1,10 +1,10 @@
 header {
     margin: 0%;
+    padding: 0%;
 }
 
 body {
     width: 100%
-    margin: 0%
 }
 
 .navbar {
@@ -12,7 +12,7 @@ body {
     flex-wrap: wrap;
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 5px 0px 5px 25px;
+    /* padding: 5px 0px 5px 25px; */
     align-items: center;
 }
 
@@ -37,7 +37,7 @@ body {
     color: whitesmoke;
 }
 
-.section1 {
+.heroText {
     display: flex;
     flex-wrap: wrap;
     background-color: #1F2937;
@@ -49,23 +49,19 @@ body {
     margin: 0%;
 }
 
-.section1LeftSide {
+.heroTextText {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     text-align: left;
-    margin-left: 25px;
+    width: 50%;
 }
 
-.section1LeftSide h1 {
+.heroTextText h1 {
     font-size: 48px;
     font-weight: bolder;
 }
 
-.section1LeftSide a {
-    color: greenyellow;
-}
-
-.section1LeftSide a:visited {
+.heroText a, a:visited {
     color: greenyellow;
 }
 
@@ -87,7 +83,6 @@ button {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-right: 25px;
     flex-wrap: wrap;
     object-fit: cover;
 }
