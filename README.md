@@ -1,2 +1,2 @@
 # odin-landingPage
-Landing Page project; part of The Odin Project
+<p>I built this webpage as part of The Odin Project's curriculum. They give you an image of the page's layout and styling (hex codes for colors, etc), and then you build it using the skills from previous lessons. The images are all stock photos taken from <a href="https://www.pexels.com/">Pexels</a>. With the exception of the Pexels link, none of the other links or buttons on this page actually do anything. They're strictly for show.</p>
