@@ -56,7 +56,13 @@ body {
     flex: 1;
     flex-wrap: wrap;
     text-align: left;
+<<<<<<< HEAD
     max-width: fit-content;
+=======
+    width: 50%;
+    max-width: fit-content;
+
+>>>>>>> 9cf2a1c721a6bbcfc45912f83fc52f7e41876bdb
 }
 
 .heroTextText h1 {
