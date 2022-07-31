@@ -17,8 +17,6 @@ body {
 .navbar {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     color: #F9FAF8;
     background-color: #1F2937;
     width: 100%;
@@ -31,12 +29,11 @@ body {
 }
 
 .navbarLinks {
-    float: right;
     display: flex;
     flex-direction: row;
     font-size: xx-large;
     gap: 10px;
-    width: 45%;
+    width: 100%;
 }
 
 .navbarLinks a {
@@ -47,19 +44,6 @@ body {
     color: whitesmoke;
 }
 
-@media only screen and (max-width: 1000px) {
-    .heroText {
-        flex-direction: column;
-    }
-
-    .heroTextText {
-        width: 100%;
-    }
-
-    .heroText img {
-        width: 100%;
-    }
-}
 
 .heroText {
     display: flex;
@@ -111,6 +95,20 @@ body {
     margin-top: 5%;
     height: 50px;
     width: 30%;
+}
+
+@media (max-width: 800px) {
+    
+    .heroTextText { 
+        width: 100%;
+    }
+    
+    .heroText img { 
+        height: 100%;
+        width: auto;
+        padding-left: 65%;
+        padding-top: 10px;
+    }
 }
 
 .section2 {
