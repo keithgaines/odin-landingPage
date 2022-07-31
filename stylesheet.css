@@ -6,29 +6,42 @@ body {
     margin: 0%;
 }
 
-h1 {
+.pagetitle h1 {
     text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    margin: 0%;
+    padding: 20px;
 }
+
 .navbar {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     color: #F9FAF8;
     background-color: #1F2937;
     width: 100%;
-    gap: 50%;
+}
+
+.headerLogo img {
+    float: left;
+    height: 75%;
+    width: 50%;
 }
 
 .navbarLinks {
+    float: right;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     font-size: xx-large;
     gap: 10px;
-    padding: auto;
+    width: 50%;
+    padding-right: 5%;
 }
 
 .navbarLinks a {
     color: whitesmoke;
-    padding: auto;
 }
 
 .navbarLinks a:visited {
@@ -44,6 +57,7 @@ h1 {
     padding-bottom: 30px;
     margin: 0%;
     width: 100%;
+    gap: 5%;
 }
 
 @media screen and (max-width: 600px) {
@@ -58,7 +72,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    max-width: 50%;
+    max-width: 40%;
+    padding-left: 1%;
 }
 
 @media screen and (max-width: 600px) {
@@ -79,10 +94,10 @@ h1 {
 .heroTextText p {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 0%;
 }
 
 .heroTextRight{
-    width: 50%;
     max-width: 50% ;
 }
 .heroText img {
@@ -92,8 +107,12 @@ h1 {
 }
 
 .heroText button {
-    width: 300px;
-    height: 100px;
+    display: inline-block;
+    font-size: medium;
+    margin-left: 70%;
+    margin-top: 5%;
+    height: 50px;
+    width: 100px;
 }
 
 .section2 {
@@ -145,12 +164,16 @@ h1 {
 }
 
 .signup button {
-    padding: 5px;
-    margin-left: 60%;
     background-color: #3882f6;
     color: white;
     border: 4px solid white;
     border-radius: 15px;
+    display: inline-block;
+    font-size: medium;
+    margin-left: 50%;
+    margin-top: 25px;
+    height: 50px;
+    width: 200px;
 }
 
 hr {
